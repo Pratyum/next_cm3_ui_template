@@ -5,6 +5,7 @@ export const HomeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   height: 100%;
+  gap:8px;
 `;
 
 export const CTAContainer = styled.div`
@@ -79,3 +80,12 @@ export const CTAButton = styled.button`
   font-weight: bold;
   cursor: pointer;
 `;
+
+export const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12px;
+  width: 100%;
+  margin-top: 12px;
+`;
+
